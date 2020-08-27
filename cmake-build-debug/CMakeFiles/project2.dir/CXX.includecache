@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/jaymc/CLionProjects/project2/functions.cpp
+cstdlib
+-
+time.h
+-
+header.h
+C:/Users/jaymc/CLionProjects/project2/header.h
+sysinfoapi.h
+-
+
+C:/Users/jaymc/CLionProjects/project2/header.h
+iostream
+-
+string
+-
+fstream
+-
+iomanip
+-
+vector
+-
+stdio.h
+-
+
+C:/Users/jaymc/CLionProjects/project2/main.cpp
+iostream
+-
+header.h
+C:/Users/jaymc/CLionProjects/project2/header.h
+
